@@ -38,8 +38,12 @@ API_SECRET='[your-api-secret]'
 
 You can find those in your Cloudinary Console/Dashboard (at the top)
 
-### Edit your config
+### Edit your config file
 
-The config file [screenshot.config.js](screenshot.config.js) contains the settings for your screenshots and the URLs you wish to take screenshots of.
+The config file [screenshot.config.js](screenshot.config.js) contains the settings for your screenshots.
+
+### Add the URLs of sites to screenshot
+
+`screenshot-urls.json` is a JSON file of the sites you want to screen shot. Each object in the array is a site name and corresponding url to be captured.
 
 
