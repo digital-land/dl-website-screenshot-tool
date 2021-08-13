@@ -1,7 +1,7 @@
 {
-  "name": "dlsnapshots",
+  "name": "ScreenShotToCloundinaryTool",
   "version": "1.0.0",
-  "description": "A tool to automatically take screenshots of Digital Land pages",
+  "description": "A tool to automatically take screenshots of URLs and upload them to Cloudinary media hosting service",
   "main": "screenshot.js",
   "author": "Paul Smith",
   "license": "MIT",

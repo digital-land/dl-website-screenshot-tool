@@ -1,4 +1,5 @@
 module.exports = {
+    // see: https://cloudinary.com/documentation/image_upload_api_reference
     cloudinary: {
         api: {
             cloud_name: process.env.CLOUD_NAME,
@@ -8,6 +9,7 @@ module.exports = {
         folder_path: 'screenshots',
         tag: 'screenshot'
     },
+    // Pupeteer docs see: https://devdocs.io/puppeteer/
     screenshot: {        
         viewport: {
             width: 1366,
@@ -17,6 +19,9 @@ module.exports = {
         options: {
             fullPage: true
         },
+        // this function will execute on the page being screenshotted, edit this if you want
+        // to do things like disable cookie banners, etc. Code it defensively to avoid an
+        // error on the page being screenshotted by pupeteer. 
         jsToExecuteOnPage: function() {
             // check if there is a hide cookie button element
             var hideCookieButton = document.getElementsByClassName('cookie-banner__hide-button');
