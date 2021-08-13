@@ -1,0 +1,16 @@
+{
+  "name": "dlsnapshots",
+  "version": "1.0.0",
+  "description": "A tool to automatically take screenshots of Digital Land pages",
+  "main": "screenshot.js",
+  "author": "Paul Smith",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --require dotenv/config screenshot.js"
+  },
+  "dependencies": {
+    "cloudinary": "^1.13.2",
+    "dotenv": "^6.2.0",
+    "puppeteer": "^1.11.0"
+  }
+}
