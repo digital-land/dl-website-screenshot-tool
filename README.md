@@ -40,6 +40,6 @@ You can find those in your Cloudinary Console/Dashboard (at the top)
 
 ### Edit your config
 
-The config file `[screenshot.config.js](screenshot.config.js)` contains the settings for your screenshots and the URLs you wish to take screenshots of.
+The config file [screenshot.config.js](screenshot.config.js) contains the settings for your screenshots and the URLs you wish to take screenshots of.
 
 
