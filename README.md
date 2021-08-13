@@ -44,6 +44,18 @@ The config file [screenshot.config.js](screenshot.config.js) contains the settin
 
 ### Add the URLs of sites to screenshot
 
-`screenshot-urls.json` is a JSON file of the sites you want to screen shot. Each object in the array is a site name and corresponding url to be captured.
+[screenshot-urls.json](screenshot-urls.json) is a JSON file of the sites you want to screen shot. Each object in the array is a site name and corresponding url to be captured.
 
+## Running screenshot tool
 
+Once the above installation and set-up steps are complete. Go to your terminal in the root directory and run:
+
+```
+yarn run start
+```
+
+or
+
+```
+node --require dotenv/config screenshot.js
+```
