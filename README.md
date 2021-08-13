@@ -62,5 +62,7 @@ node --require dotenv/config screenshot.js
 
 ## Bonus materials
 
-Cloudinary is a great service but it not always easy for people to access or use. So I have created a ['Zap' in the Zapier](https://zapier.com/shared/da2592b8b4214de353282f450e6701ba03e54cd2) a cloud based workflow and productivity service that will automatically copy the screenshots to your Google Drive. It will copy any new image added to your Cloudinary account that has been tagged with the ['tag' value in your config](https://github.com/digital-land/dl-website-screenshot-tool/blob/e1a69cd3ee30cd063748919e24d4633800fb438b/screenshot.config.js#L12) ('screenshot' is default).
+Cloudinary is a great service but it not always easy for people to access or use. 
+
+So I have created a ['Zap' in the Zapier](https://zapier.com/shared/da2592b8b4214de353282f450e6701ba03e54cd2) a cloud based workflow and productivity service that will automatically copy the screenshots to your Google Drive. It will copy any new image added to your Cloudinary account that has been tagged with the ['tag' value in your config](https://github.com/digital-land/dl-website-screenshot-tool/blob/e1a69cd3ee30cd063748919e24d4633800fb438b/screenshot.config.js#L12) ('screenshot' is default).
 
