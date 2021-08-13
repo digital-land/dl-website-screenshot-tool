@@ -27,6 +27,11 @@ async function doScreenShot(url, site_name) {
   await page.setViewport(configObj.screenshot.viewport);
   await page.goto(url, {waitUntil: 'domcontentloaded'});
 
+  // look in the config for a function to execute on the page and run it
+  if (configObj.screenshot.jsToExecuteOnPage) {
+    await page.evaluate(configObj.screenshot.jsToExecuteOnPage);
+  }
+
   // take the screenshot 
   let screenshotReturned = await page.screenshot(configObj.screenshot.options)
   .then((result) => {
@@ -59,6 +64,12 @@ function useCloudinary(screenshotReturned, cloudinary_options){
         if (error){
           console.error('Upload to cloudinary failed: ', error);
           rej(error);
+        }
+        if (configObj.cloudinary.tag) {
+          console.log(`adding tag: '${configObj.cloudinary.tag}' to this image within Cloudinary`);
+          cloudinary.v2.uploader.add_tag(configObj.cloudinary.tag, [cloudinary_result.public_id], function(error, result) { 
+            console.log(result, error)
+          });
         }
         console.log(cloudinary_result);
         res(cloudinary_result);
