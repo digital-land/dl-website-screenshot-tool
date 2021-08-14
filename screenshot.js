@@ -16,7 +16,7 @@ async function doScreenShot(url, site_name) {
   // set-up storing the image with a filename in the right place
   const d = new Date();
   const current_date = `${d.getFullYear()}_${d.getMonth()+1}_${d.getDate()}`;
-  const current_time = `${d.getFullYear()}_${d.getMonth()+1}_${d.getDate()}_${d.getHours()}_${d.getMinutes()}`
+  const current_time = `${current_date}_${d.getHours()}_${d.getMinutes()}`
   const cloudinary_options = {
     public_id: `${configObj.cloudinary.folder_path}/${current_date}/${current_time}_${site_name}`
   };
@@ -71,7 +71,7 @@ function useCloudinary(screenshotReturned, cloudinary_options){
         if (configObj.cloudinary.tag) {
           console.log(`adding tag: '${configObj.cloudinary.tag}' to this image within Cloudinary`);
           cloudinary.v2.uploader.add_tag(configObj.cloudinary.tag, [cloudinary_result.public_id], function(error, result) { 
-            console.log(result, error)
+            return;
           });
         }
         console.log(cloudinary_result);
