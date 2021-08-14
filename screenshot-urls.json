@@ -1,34 +1,34 @@
 [
-    {
-      "name": "Conservation-area",
-      "url": "https://digital-land.github.io/guidance/conservation-area/"
-    },
-    {
-      "name": "Data-principles",
-      "url": "https://digital-land.github.io/guidance/data-principles/"
-    },
-    {
-      "name": "Pipeline",
-      "url": "https://digital-land.github.io/guidance/pipeline/"
-    },
-    {
-      "name": "Local-authority-addresses",
-      "url": "https://digital-land.github.io/local-authority-addresses/"
-    },
-    {
-      "name": "Development-plans-data",
-      "url": "https://digital-land.github.io/guidance/development-plans-data/"
-    },
-    {
-      "name": "Publish-your-sites-data",
-      "url": "https://digital-land.github.io/guidance/publish-your-sites-data/"
-    },
-    {
-      "name": "Publish-your-local-plan-data",
-      "url": "https://digital-land.github.io/guidance/publish-your-local-plan-data/"
-    },
-    {
-      "name": "Publish-your-geographies-as-data",
-      "url": "https://digital-land.github.io/guidance/publish-your-geographies-as-data/"
-    }
-  ]
+  {
+    "name": "Conservation-area",
+    "url": "https://digital-land.github.io/guidance/conservation-area/"
+  },
+  {
+    "name": "Data-principles",
+    "url": "https://digital-land.github.io/guidance/data-principles/"
+  },
+  {
+    "name": "Pipeline",
+    "url": "https://digital-land.github.io/guidance/pipeline/"
+  },
+  {
+    "name": "Local-authority-addresses",
+    "url": "https://digital-land.github.io/local-authority-addresses/"
+  },
+  {
+    "name": "Development-plans-data",
+    "url": "https://digital-land.github.io/guidance/development-plans-data/"
+  },
+  {
+    "name": "Publish-your-sites-data",
+    "url": "https://digital-land.github.io/guidance/publish-your-sites-data/"
+  },
+  {
+    "name": "Publish-your-local-plan-data",
+    "url": "https://digital-land.github.io/guidance/publish-your-local-plan-data/"
+  },
+  {
+    "name": "Publish-your-geographies-as-data",
+    "url": "https://digital-land.github.io/guidance/publish-your-geographies-as-data/"
+  }
+]
