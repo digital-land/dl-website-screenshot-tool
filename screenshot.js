@@ -23,12 +23,13 @@ async function doScreenShot(url, site_name) {
   
   // use puppeteer to open the page and take a screenshot
   const browser = await puppeteer.launch({
+    ignoreHTTPSErrors: true,
     headless: true,
     args: ['--no-sandbox','--disable-setuid-sandbox']
   });
   const page = await browser.newPage();
   await page.setViewport(configObj.screenshot.viewport);
-  await page.goto(url, {waitUntil: 'domcontentloaded'});
+  await page.goto(url, {waitUntil: 'load'});
 
   // look in the config for a function to execute on the page and run it
   if (configObj.screenshot.jsToExecuteOnPage) {

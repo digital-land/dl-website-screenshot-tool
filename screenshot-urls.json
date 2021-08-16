@@ -1,15 +1,18 @@
 [
   {
     "name": "Conservation-area",
-    "url": "https://digital-land.github.io/guidance/conservation-area/"
+    "url": "https://digital-land.github.io/guidance/conservation-area/",
+    "tags": ["guidance"]
   },
   {
     "name": "Data-principles",
-    "url": "https://digital-land.github.io/guidance/data-principles/"
+    "url": "https://digital-land.github.io/guidance/data-principles/",
+    "tags": ["guidance"]
   },
   {
     "name": "Pipeline",
-    "url": "https://digital-land.github.io/guidance/pipeline/"
+    "url": "https://digital-land.github.io/guidance/pipeline/",
+    "tags": ["guidance"]
   },
   {
     "name": "Local-authority-addresses",
@@ -17,18 +20,22 @@
   },
   {
     "name": "Development-plans-data",
-    "url": "https://digital-land.github.io/guidance/development-plans-data/"
+    "url": "https://digital-land.github.io/guidance/development-plans-data/",
+    "tags": ["guidance"]
   },
   {
     "name": "Publish-your-sites-data",
-    "url": "https://digital-land.github.io/guidance/publish-your-sites-data/"
+    "url": "https://digital-land.github.io/guidance/publish-your-sites-data/",
+    "tags": ["guidance"]
   },
   {
     "name": "Publish-your-local-plan-data",
-    "url": "https://digital-land.github.io/guidance/publish-your-local-plan-data/"
+    "url": "https://digital-land.github.io/guidance/publish-your-local-plan-data/",
+    "tags": ["guidance"]
   },
   {
     "name": "Publish-your-geographies-as-data",
-    "url": "https://digital-land.github.io/guidance/publish-your-geographies-as-data/"
+    "url": "https://digital-land.github.io/guidance/publish-your-geographies-as-data/",
+    "tags": ["guidance"]
   }
 ]
