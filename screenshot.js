@@ -29,7 +29,7 @@ async function doScreenShot(url, site_name) {
   });
   const page = await browser.newPage();
   await page.setViewport(configObj.screenshot.viewport);
-  await page.goto(url, {waitUntil: 'load'});
+  await page.goto(url, {waitUntil: (configObj.screenshot.waitUntil ? configObj.screenshot.waitUntil : 'load')});
 
   // look in the config for a function to execute on the page and run it
   if (configObj.screenshot.jsToExecuteOnPage) {
